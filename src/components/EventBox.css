@@ -1,0 +1,16 @@
+.event-container{
+    width: 20rem;
+    height: auto;
+    justify-self: center;
+}
+
+.event-img-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    background-color: rgb(110, 110, 110); /* Adjust opacity as needed */
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}

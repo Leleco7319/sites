@@ -1,0 +1,31 @@
+.image-container{
+    transition: transform 0.3s ease-in-out;
+    height: auto;
+    z-index: 0;
+    overflow: hidden;
+    justify-self: center;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.image {
+    max-width: 100%;
+    width: 20rem;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 1); /* Adjust opacity as needed */
+    color: white;
+    transform: translateY(100%);
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover .img-text {
+    transform: translateY(0);
+    z-index: 1;
+}

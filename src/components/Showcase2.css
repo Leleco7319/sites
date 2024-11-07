@@ -1,0 +1,25 @@
+.showcase2-container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.example-img {
+    width: 9rem;
+}
+
+.mini-container {
+    margin-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.product p {
+    margin-bottom: 0;
+}
+
+.product {
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}

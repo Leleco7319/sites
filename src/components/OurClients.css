@@ -1,0 +1,12 @@
+.our-clients{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+.client {
+    border: 1px solid rgba(0, 0, 0, 0.253);
+}

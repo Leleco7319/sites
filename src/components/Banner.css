@@ -1,0 +1,31 @@
+.banner-container {
+    position:relative;
+    top: 0;
+    left: -15%;
+    width: 130%;
+    object-fit: cover;
+    background: black;
+}
+
+.banner-image {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.banner-info {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 35%;
+}
+
+.banner-info p {
+    font-size: 1.1rem;
+}
+
+.banner-info button {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}

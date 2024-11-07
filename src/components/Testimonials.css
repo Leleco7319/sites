@@ -1,0 +1,19 @@
+.carousel-indicators {
+    margin: 0 !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    gap: 4px;
+}
+
+.carousel-indicators button {
+    background-color: gray !important;
+    height: 12px !important;
+    width: 12px !important;
+    background-color: #bbb !important;
+    border-radius: 50% !important;
+}
+
+.slide p:last-child {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.312);
+}

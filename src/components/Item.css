@@ -1,0 +1,9 @@
+.item-block {
+    width: 30%;
+    border: 2px solid #e5e5e5;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+    height:10rem;
+}

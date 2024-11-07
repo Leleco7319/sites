@@ -1,0 +1,59 @@
+/* Base styles */
+.header, .nav, .nav-link, .logo, .navbar-container, .number {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  /* Specific styles */
+  .header {
+    position: sticky !important;
+    color: white !important;
+    background-color: #000000 !important;
+    width: 100%;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: large;
+    height: 100px;
+  }
+  
+  .nav {
+    margin: 0 40px;
+    justify-content: center !important;
+  }
+  
+  .nav-link {
+    height: 98px;
+    text-decoration: none;
+    color: white !important;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #3b3b3b;
+    }
+    &:not(:last-child)::after {
+      content: "";
+      display: inline-block;
+      width: 1px;
+      height: 15px;
+      background-color: white;
+      margin-left: 20px;
+    }
+  }
+  
+  .logo {
+    width: 6rem;
+    text-decoration: none;
+    padding: 0px 10px 0px 0px;
+  }
+  
+  .navbar-container {
+    border-top: 2px solid white;
+    padding: 0 !important;
+    justify-content: space-between !important;
+    position: sticky !important;
+  }
+  
+  .number {
+    font-size: x-small;
+    justify-content: center !important;
+  }
