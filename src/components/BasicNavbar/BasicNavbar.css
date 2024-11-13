@@ -1,0 +1,40 @@
+.navbar-container {
+    justify-content: center !important;
+    height: 114px;
+    border-top: 0px;
+    overflow: hidden;
+    border-top: 10px solid #555;
+    gap: 70px;
+}
+
+.options {
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.logo {
+    scale: 0.7;
+}
+
+.nav {
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.nav-link {
+    height: 114px;
+    display: flex !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    align-items: center !important; 
+    &:hover {
+        background-color: #d0d0d0d5;
+    }
+}
+
+.number {
+    display: flex;
+    align-items: center;
+}

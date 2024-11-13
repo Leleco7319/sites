@@ -1,0 +1,17 @@
+.partners{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.partner {
+    flex: 1;
+    padding: 15px 20px;
+}
+
+.title {
+    text-align: center;
+    color: #666;
+}

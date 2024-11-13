@@ -1,0 +1,26 @@
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    gap: 30px;
+}
+
+.title {
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service-container button{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 10px;
+    border: 0;
+    color: white;
+    background: black;
+}
