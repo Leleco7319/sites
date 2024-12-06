@@ -1,3 +1,25 @@
 .app{
   display: block;
 }
+
+.component-title {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.component-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 4.8em;
+  margin-left: -20px;
+  width: 40px;
+  height: 2px;
+  background: #e5e5e5;
+  ;
+}
+
+
+

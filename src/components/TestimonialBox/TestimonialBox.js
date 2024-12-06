@@ -1,14 +1,16 @@
 import React from 'react'
 import './TestimonialBox.css'
 
-const TestimonialBox = () => {
+const api = process.env.REACT_APP_API_URL;
+
+const TestimonialBox = ( {data}) => {
     return (
         <div className='test-box'>
-            <img style={{marginTop:'-30px'}} src='images/avatar.jpg' alt='aaaa' />
+            <img style={{marginTop:'-30px'}} src={`${api}${data.media.url}`} alt='aaaa' />
             <div className='test-text'>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
-                <h6>MARCELO</h6>
-                <span>Curitiba/PR</span>
+                <p>{data.testimonial}</p>
+                <h6>{data.name}</h6>
+                <span>{data.location}</span>
             </div>
         </div>
     )

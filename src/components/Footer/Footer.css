@@ -1,4 +1,5 @@
 .footer-container {
+    float: left;
     position: relative;
     padding-left: 10%;
     padding-right: 10%;

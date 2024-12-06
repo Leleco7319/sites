@@ -1,0 +1,19 @@
+.projectbox-container {
+    width: 20em;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.projectbox-container img {
+    width: 100%;
+}
+
+.projectbox-container h4 {
+    font-size: 1.3em;
+    margin-top: 1.2em;
+}
+
+.projectbox-container p {
+    color: #7f7e7e;
+}

@@ -3,6 +3,7 @@
     margin-left: 10%;
     margin-right: 10%;
     gap: 40px;
+    justify-content: space-between;
 }
 
 .test-title {

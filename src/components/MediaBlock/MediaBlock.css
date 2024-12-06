@@ -1,0 +1,31 @@
+.mediablock-container {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.mediablock-container img {
+    border-bottom: 2px solid black;
+}
+
+.mediatext {
+    margin-left: 20px;
+    float: left;
+}
+
+.mediatext h3, p {
+    font-weight: 400;
+    color: gray;
+}
+
+.mediatext p {
+    line-height: 1.2;
+}
+
+.datebox {
+    margin: 10px 0 20px 0;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    max-width: fit-content;
+    padding: 8px;
+}
